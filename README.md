@@ -6,12 +6,12 @@ IEvent store is a minimalistic event store that has two methods: Save(event) and
 
 ### In-memory database
 ```C#
-services.AddEventStore<Event>(new InMemoryEventStoreOptions("MyEvents"));
+services.AddInMemoryEventStore<Event>();
 ```
 ### MongoDB
 
 ```C#
-services.AddEventStore<Event>(new MongoEventStoreOptions("MyDatabase", Configuration.GetConnectionString("MongoDB"), "MyEvents"));
+services.AddMongoEventStore<Event>("MyDatabase", Configuration.GetConnectionString("MongoDB"), "MyEvents");
 ```
 
 ### API

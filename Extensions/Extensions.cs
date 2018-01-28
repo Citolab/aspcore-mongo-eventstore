@@ -17,7 +17,7 @@ namespace Citolab.Mongo.EventStore.Extensions
             string connectionString, string collectionName) =>
             services.AddEventStore<T>(new MongoEventStoreOptions(databaseName, connectionString, collectionName));
 
-        public static void AddMongoEventStore<T>(this IServiceCollection services, string collectionName) =>
+        public static void AddInMemoryEventStore<T>(this IServiceCollection services, string collectionName) =>
             services.AddEventStore<T>(new InMemoryEventStoreOptions(collectionName));
 
         private static void AddEventStore<T>(this IServiceCollection services, IEventStoreOptions options)
