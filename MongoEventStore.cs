@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using Citolab.Mongo.EventStore.Options;
+using Citolab.EventStore.Mongo.Options;
 using Citolab.Repository;
 using Microsoft.Extensions.Logging;
 using MongoDB.Driver;
 
-namespace Citolab.Mongo.EventStore.Mongo
+namespace Citolab.EventStore.Mongo
 {
     public class MongoEventStore<TEvent> : IEventStore<TEvent>
     {

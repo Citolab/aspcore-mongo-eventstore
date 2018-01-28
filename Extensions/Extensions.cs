@@ -1,15 +1,12 @@
 ﻿using System;
-using Citolab.Mongo.EventStore.Mongo;
-using Citolab.Mongo.EventStore.Options;
+using Citolab.EventStore.Mongo.Options;
 using Citolab.Repository;
-using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.DependencyInjection.Extensions;
 using MongoDB.Bson.Serialization;
 using MongoDB.Bson.Serialization.Serializers;
 using Newtonsoft.Json;
 
-namespace Citolab.Mongo.EventStore.Extensions
+namespace Citolab.EventStore.Mongo.Extensions
 {
     public static class Extensions
     {

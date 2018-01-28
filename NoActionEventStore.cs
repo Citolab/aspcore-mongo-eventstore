@@ -3,7 +3,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Citolab.Repository;
 
-namespace Citolab.Mongo.EventStore.NoAction
+namespace Citolab.EventStore.Mongo
 {
     public class NoActionEventStore<TEvent> : IEventStore<TEvent>
     {

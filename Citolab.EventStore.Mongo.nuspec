@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>Citolab.Mongo.EventStore</id>
+    <id>Citolab.EventStore.Mongo</id>
     <version>$version$</version>
     <title>Mongo eventstore</title>
     <authors>Tjeerd Hans Terpstra, Marcel Hoekstra</authors>

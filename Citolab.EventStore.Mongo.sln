@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Citolab.Mongo.EventStore", "Citolab.Mongo.EventStore.csproj", "{21E21F5C-DB54-4A49-BAC3-2994195092AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Citolab.EventStore.Mongo", "Citolab.EventStore.Mongo.csproj", "{21E21F5C-DB54-4A49-BAC3-2994195092AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

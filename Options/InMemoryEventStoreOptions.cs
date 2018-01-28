@@ -1,4 +1,4 @@
-﻿namespace Citolab.Mongo.EventStore.Options
+﻿namespace Citolab.EventStore.Mongo.Options
 {
     public class InMemoryEventStoreOptions: IInMemoryEventStoreOptions
     {
